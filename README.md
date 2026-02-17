@@ -27,3 +27,17 @@ Notes:
 \[
 d_{100} = \frac{\lambda}{2\sin\theta}
 \]
+
+## Code
+
+A runnable calculator is available in `xrd.py`.
+
+Example:
+
+```bash
+python xrd.py --two-theta 36.5 --beta-measured 0.25 --beta-instrument 0.08
+```
+
+It prints:
+- `D(100)` crystallite size in nm (Scherrer)
+- `d(100)` spacing in nm (Bragg's law)
